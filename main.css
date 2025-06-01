@@ -1,0 +1,29 @@
+body {
+  background: #eaf6e3;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 2rem;
+}
+h1 {
+  text-align: center;
+  color: #386641;
+}
+#forest {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+.tree-svg {
+  background: #d0e6c7;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(56, 102, 65, 0.08);
+  margin: 0.5rem;
+}
+.tree-label {
+  text-align: center;
+  font-size: 0.95rem;
+  color: #386641;
+  margin-top: 0.2rem;
+}
